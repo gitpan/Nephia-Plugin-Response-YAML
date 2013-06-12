@@ -1,13 +1,15 @@
 ---
 abstract: 'A plugin for Nephia that give YAML responding feature'
 author:
-  - 'ytnobody <ytnobody aaaatttt gmail>'
+  - 'ytnobody, C<< <ytnobody aaaatttt gmail> >>'
 build_requires:
   Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 0
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.130880'
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.4.2, CPAN::Meta::Converter version 2.130880'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,9 +18,24 @@ name: Nephia-Plugin-Response-YAML
 no_index:
   directory:
     - t
+    - xt
     - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Nephia::Plugin::Response::YAML:
+    file: lib/Nephia/Plugin/Response/YAML.pm
+    version: 0.02
 requires:
   Nephia: 0.05
   YAML: 0
   perl: 5.008
-version: 0.01
+resources:
+  bugtracker: https://github.com/ytnobody/Nephia-Plugin-Response-YAML/issues
+  homepage: https://github.com/ytnobody/Nephia-Plugin-Response-YAML
+  repository: git://github.com/ytnobody/Nephia-Plugin-Response-YAML.git
+version: 0.02
+x_contributors:
+  - 'ytnobody <ytnobody@gmail.com>'
