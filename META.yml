@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.4.2, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,7 +27,7 @@ no_index:
 provides:
   Nephia::Plugin::Response::YAML:
     file: lib/Nephia/Plugin/Response/YAML.pm
-    version: 0.02
+    version: 0.03
 requires:
   Nephia: 0.05
   YAML: 0
@@ -36,6 +36,6 @@ resources:
   bugtracker: https://github.com/ytnobody/Nephia-Plugin-Response-YAML/issues
   homepage: https://github.com/ytnobody/Nephia-Plugin-Response-YAML
   repository: git://github.com/ytnobody/Nephia-Plugin-Response-YAML.git
-version: 0.02
+version: 0.03
 x_contributors:
   - 'ytnobody <ytnobody@gmail.com>'
