@@ -27,15 +27,15 @@ no_index:
 provides:
   Nephia::Plugin::Response::YAML:
     file: lib/Nephia/Plugin/Response/YAML.pm
-    version: 0.03
+    version: 0.04
 requires:
-  Nephia: 0.05
+  Nephia: 0.32
   YAML: 0
   perl: 5.008
 resources:
   bugtracker: https://github.com/ytnobody/Nephia-Plugin-Response-YAML/issues
   homepage: https://github.com/ytnobody/Nephia-Plugin-Response-YAML
   repository: git://github.com/ytnobody/Nephia-Plugin-Response-YAML.git
-version: 0.03
+version: 0.04
 x_contributors:
-  - 'ytnobody <ytnobody@gmail.com>'
+  - 'ytnobody / satoshi azuma <ytnobody@gmail.com>'
